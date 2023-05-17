@@ -1,0 +1,101 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url(1598959.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: orange;
+    width: 90%;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.coolHeader {
+    height: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact;
+    margin-top: -3px;
+    color: blue;
+}
+
+main {
+    flex: auto;
+    flex-direction: row;
+    justify-content:left;
+}
+
+img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 150px;
+}
+
+a:link {
+    color: orchid;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: Impact;
+    font-weight: bolder;
+}
+
+a:visited {
+    color: orchid;
+}
+
+a:hover {
+    color: orchid;
+}
+
+a:active {
+    color: orchid;
+}
+
+.cities {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.city {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding-top: 5px;
+    width: 310px;
+    height: 250px;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, .5);
+    text-align: center;
+}
+
+footer {
+    height: 30px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: orange    ;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.coolFooter {
+    margin-top: -4px;
+    font-size: 20px;
+}
+
+.fa-youtube {
+    color: blue;
+}
